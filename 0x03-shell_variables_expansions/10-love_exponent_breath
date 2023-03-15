@@ -1,2 +1,4 @@
 #!/bin/bash
-echo $((pow $BREATH $LOVE))
+base=2
+exponent=3
+result=$($base**$exponent)
