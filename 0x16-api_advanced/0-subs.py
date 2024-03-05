@@ -9,7 +9,7 @@ import sys
 
 def number_of_subscribers(subreddit):
     """ Queries to Reddit API """
-    u_agent = 'Mozilla/5.0'
+    u_agent = 'linux:0x16.api.advanced:v1.0.0 (by /u/bdov_)'
 
     headers = {
         'User-Agent': u_agent
